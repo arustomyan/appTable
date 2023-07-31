@@ -1,7 +1,6 @@
 import { FC, useEffect, useState } from "react";
 import styles from "./Pagination.module.css";
 import cl from "classnames";
-import { type } from "../model/model";
 
 interface PaginationProp {
   countPages: number;
